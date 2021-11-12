@@ -8,11 +8,11 @@
 
 ## some info
 
--  dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
+-  **dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
--  st flexipatch - https://github.com/bakkeby/st-flexipatch
+-  **st flexipatch - https://github.com/bakkeby/st-flexipatch
 
--  eww widget theme - https://github.com/adi1090x/widgets
+-  **eww widget theme - https://github.com/adi1090x/widgets
 
 ## dependencies
 
@@ -24,6 +24,13 @@
 - **Dunst**: for notifications
 - **Nitrogen**: wallpaper setup tool
 - **Easyeffects**: AutoEQ for headphones
+- **Zenpower**: cpu temperature info
+- **Spotify**: music plugin in eww works only with this player, but you can configure it for yourself
+
+## configuration
+
+- **Important**: Go to my .dots repo and clone bin folder and place it in your PATH, without it scripts won't work and change  
+- **EWW**: First take a look at scripts folder for change to your preference. Change file manager for yours, weather api key and links. Also change profile data which is located in 66 and 67 line of eww.xml
 
 ## keybinds
 
