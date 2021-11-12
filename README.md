@@ -1,4 +1,4 @@
-# dwm
+<h1 align="center">DWM</h1>
 
 <img src='screens/dwm.png'>
 
@@ -8,7 +8,7 @@
 
 # info
 
-<h1 align="center">🚀✨ Widgets go brr! ✨🚀</h1>
+
 
 dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
