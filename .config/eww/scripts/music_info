@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ## Get data
 STATUS="$(playerctl -p spotify status)"
