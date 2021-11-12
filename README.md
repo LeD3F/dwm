@@ -1,14 +1,12 @@
-<h1 align="center">DWM</h1>
+##dwm
 
 <img src='screens/dwm.png'>
 
-# eww
+##eww
 
 <img src='screens/eww.png'>
 
-# info
-
-
+##some info
 
 dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
