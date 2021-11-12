@@ -1,12 +1,12 @@
-##dwm
+## dwm
 
 <img src='screens/dwm.png'>
 
-##eww
+## eww
 
 <img src='screens/eww.png'>
 
-##some info
+## some info
 
 dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
