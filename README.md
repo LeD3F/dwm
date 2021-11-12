@@ -31,6 +31,7 @@
 
 ## configuration
 
+- **About EWW:**: This config for 1920x1080 resolution, so you should change it by yourself for preffered resolution.
 - **Important:** Go to my .dots repo and clone bin folder and place it in your PATH, without it scripts won't work and change.  
 - **EWW:** Go to scripts folder and change preferences for your hardware and apps of your choice.
 - **Updates in dwmblocks:** update scripts works only for arch and arch based distros, change command for updates that applies to your distribution.
