@@ -1,0 +1,45 @@
+Keybindings
+
+Super + Enter - Launch Terminal
+Super + B - Hide Bar
+
+Super + J/K - Focus Left or Right Stack
+Super + S - Swap focus on left or right stack in one keybind.
+
+Super + A/Z - Increase or decrease windows in Master stack.
+
+Super + H/L - Change size of master stack.
+Super + Shift + H/L/O - Set the size of windows in all stacks. O for reset size.
+
+Super + Shift + J/K - Move stacks on available tag.
+
+Super + Tab - Show previous tag
+Super + Shift + C - kill client
+Super + Shift + Q - Quit DWM
+Super + Control + Shift + Q - Restart DWM
+
+Super + T - set tiling layout
+Super + F - set floating layout
+Super + M - set monocle layout
+Super + Shift + Space - toggle floating
+Super + Y - toggle fullscreen 
+Super + Shift + Comma - Cycle available layouts
+Super + Shift + Period - Cycle available layouts
+
+Super + 0 - Show all windows from tags
+Super + Comma - focus left monitor
+Super + Period - focus right monitor
+Super + Control + Comma - tag left monitor
+Super + Control + Period - tag right monitor
+
+Tagkeys - from 1 to 9
+
+Super + E - Open EWW Panel
+Super + Shift + E - close EWW Panel
+Super + D - Open rofi launcher menu
+Super + Shift + A - Open rofi clipboard menu
+Super + F1 - lockscreen
+Super + X - Start inhibitor
+Super + Shift + X - disable inhibitor
+PrintScr - Copy screenshot to clipboard
+Super + PrintScr - Save screenshot to folder.
