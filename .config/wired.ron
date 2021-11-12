@@ -84,7 +84,7 @@
             params: ImageBlock((
                 image_type: Hint,
                 // We actually want 4px padding, but the border is 3px.
-                padding: Padding(left: 15.0, right: 0.0, top: 15.0, bottom: 15.0),
+                padding: Padding(left: 10.0, right: 0.0, top: 10.0, bottom: 10.0),
                 rounding: 4.0,
                 scale_width: 48,
                 scale_height: 48,
@@ -104,8 +104,8 @@
                 ellipsize: Middle,
                 color: Color(hex: "#efefef"),
                 color_hovered: Color(hex: "#abb2bf"),
-                padding: Padding(left: 15.0, right: 15.0, top: 15.0, bottom: 4.0),
-                dimensions: (width: (min: 100, max: 200), height: (min: 0, max: 20)),
+                padding: Padding(left: 10.0, right: 10.0, top: 10.0, bottom: 2.0),
+                dimensions: (width: (min: 100, max: 200), height: (min: 0, max: 0)),
             )),
         ),
 
@@ -120,7 +120,7 @@
                 font: "JetBrains Mono 10",
                 color: Color(hex: "#efefef"),
                 color_hovered: Color(hex: "#abb2bf"),
-                padding: Padding(left: 15.0, right: 15.0, top: 4.0, bottom: 15.0),
+                padding: Padding(left: 10.0, right: 10.0, top: 2.0, bottom: 10.0),
                 width: (min: 150, max: 200),
                 scroll_speed: 0.1,
                 lhs_dist: 35.0,
