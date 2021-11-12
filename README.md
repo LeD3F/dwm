@@ -2,8 +2,11 @@
 
 <img src='screens/dwm.png'>
 
+# eww
 
+<img src='screens/eww.png'>
 
+# info
 
 dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
