@@ -18,7 +18,7 @@
 
 ## dependencies
 
-- **Fonts:** JetBrains Mono, JetbrainsMono Nerd Fonts, Iosevka, Iosevka Nerd Fonts, SFPro and Feather.
+- **Fonts:** JetBrains Mono, JetBrainsMono Nerd Fonts, Iosevka, Iosevka Nerd Fonts, SFPro and Feather.
 - **Eww:** You can find eww launcher in my .dots repo.
 - **Rofi**
 - **Greenclip**: For clipboard in rofi.
