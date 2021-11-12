@@ -21,13 +21,14 @@
 - **Fonts:** JetBrains Mono, JetBrainsMono Nerd Fonts, Iosevka, Iosevka Nerd Fonts, SFPro and Feather.
 - **Eww:** You can find eww launcher in my .dots repo.
 - **Rofi**
-- **Greenclip**: For clipboard in rofi.
-- **Picom**: You can use any picom fork, but i recommend to use this fork with patch for shadows with rounded corners https://github.com/s0nny7/picom
-- **Dunst**: for notifications.
-- **Nitrogen**: wallpaper setup tool.
-- **Easyeffects**: AutoEQ for headphones.
-- **Zenpower**: cpu temperature info.
-- **Spotify**: music plugin in eww works only with this player, but you can configure it for yourself.
+- **Greenclip:** For clipboard in rofi.
+- **Picom:** You can use any picom fork, but i recommend to use this fork with patch for shadows with rounded corners https://github.com/s0nny7/picom
+- **Dunst:** for notifications.
+- **Nitrogen:** wallpaper setup tool.
+- **Easyeffects:** AutoEQ for headphones.
+- **Zenpower:** cpu temperature info.
+- **Spotify:** music plugin in eww works only with this player, but you can configure it for yourself.
+- **xautolock**: for inhibitors
 
 ## configuration
 
