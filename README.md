@@ -14,7 +14,16 @@
 
 -  eww widget theme - https://github.com/adi1090x/widgets
 
-## dependencies 🤵‍
+## dependencies
+
+- **Fonts:** JetBrains Mono, JetbrainsMono Nerd Fonts, Iosevka, Iosevka Nerd Fonts, SFPro and Feather
+- **Eww:** You can find eww launcher in my .dots repo
+- **Rofi**
+- **Greenclip**: For working clipboard in rofi
+- **Picom**: You can use any picom fork, but i recommend to use this fork with patch for shadows with rounded corners https://github.com/s0nny7/picom
+- **Dunst**: for notifications
+- **Nitrogen**: wallpaper setup tool
+- **Easyeffects**: AutoEQ for headphones
 
 ## keybinds
 
@@ -50,4 +59,4 @@
 | `PrintScr`                      | Copy screenshot to clipboard             |
 | `Super + PrintScr`              | Save screenshot to folder                |
 
-Note: There is also a keybing file in dwm source code folder.
+**Note**: There is also a keybing file in dwm source code folder.
