@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ## Files and Data
 PREV_TOTAL=0
