@@ -14,3 +14,5 @@ st flexipatch - https://github.com/bakkeby/st-flexipatch
 
 eww widget theme - https://github.com/adi1090x/widgets
 
+<a id="keybinds"></a>
+## Keybinds ✍️
