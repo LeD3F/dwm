@@ -23,7 +23,7 @@
 - **Rofi**
 - **Greenclip:** For clipboard in rofi.
 - **Picom:** You can use any picom fork, but i recommend to use this fork with patch for shadows with rounded corners https://github.com/s0nny7/picom
-- **Dunst:** for notifications.
+- **Wired:** for notifications.
 - **Nitrogen:** wallpaper setup tool.
 - **Easyeffects:** AutoEQ for headphones.
 - **Zenpower:** cpu temperature info.
