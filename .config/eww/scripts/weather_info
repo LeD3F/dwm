@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ## Collect data
 cache_dir="$HOME/.cache/eww/weather"
