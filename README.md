@@ -12,7 +12,7 @@
 
 - **st flexipatch** - https://github.com/bakkeby/st-flexipatch
 
-- **eww widget theme** - https://github.com/adi1090x/widgets
+- **eww widgets theme** - https://github.com/adi1090x/widgets
 
 - **dwmblocks** - https://github.com/torrinfail/dwmblocks
 
