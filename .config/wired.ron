@@ -67,7 +67,7 @@
                 border_color: Color(hex: "#282c34"),
                 border_color_low: Color(hex: "#282c34"),
                 border_color_critical: Color(hex: "#ff8585"),
-                border_color_paused: Color(hex: "#FDF1DB"),
+                border_color_paused: Color(hex: "#98c379"),
 
                 gap: Vec2(x: 0.0, y: 0.0),
                 notification_hook: Hook(parent_anchor: BL, self_anchor: TL),
@@ -135,7 +135,7 @@
         notification_interact: 1,
         notification_close: 2,
         // notification_closeall: 99,
-        // notification_pause: 99,
+        notification_pause: 3,
 
         notification_action1: 3,
         // notification_action2: 99,
