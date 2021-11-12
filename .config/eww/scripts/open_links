@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ## Open links in firefox
 FILE="$HOME/.cache/eww_launch.xyz"
