@@ -9,7 +9,7 @@
 
     // The update rate, in millisecondss.  This decides how often notifications update, including how often
     // they redraw (if required).  16ms ~= 60hz / 7ms ~= 144hz.
-    poll_interval: 16,
+    poll_interval: 7,
 
     // How many notifications are kept in history.
     // Each notification is roughly 256 bytes (excluding buffers!), so do the math here.
@@ -100,7 +100,7 @@
             // https://github.com/Toqozz/wired-notify/wiki/TextBlock
             params: TextBlock((
                 text: "%s",
-                font: "JetBrains Mono 10",
+                font: "JetBrains Mono Bold 10",
                 ellipsize: Middle,
                 color: Color(hex: "#efefef"),
                 color_hovered: Color(hex: "#abb2bf"),
