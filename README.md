@@ -8,6 +8,8 @@
 
 # info
 
+<h1 align="center">🚀✨ Widgets go brr! ✨🚀</h1>
+
 dwm flexipatch - https://github.com/bakkeby/dwm-flexipatch
 
 st flexipatch - https://github.com/bakkeby/st-flexipatch
