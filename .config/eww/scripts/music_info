@@ -1,0 +1,60 @@
+#!/bin/bash
+
+## Get data
+STATUS="$(playerctl -p spotify status)"
+
+## Get status
+get_status() {
+	if [[ $STATUS == *"[No players found]"* ]]; then
+		echo ""
+	else
+		echo "喇"
+	fi
+}
+
+## Get song
+get_song() {
+	song=`playerctl -i edge metadata title`
+	if [[ -z "$song" ]]; then
+		echo "Offline"
+	else
+		echo "$song"
+	fi	
+}
+
+## Get artist
+get_artist() {
+	artist=`playerctl -i edge metadata artist`
+	if [[ -z "$artist" ]]; then
+		echo "Offline"
+	else
+		echo "$artist"
+	fi	
+}
+
+## Get time
+get_time() {
+	time=`playerctl -i edge metadata mpris:length | sed 's/.\{6\}$//'`
+	if [[ -z "$time" ]]; then
+		echo "0"
+	else
+		echo "$time"
+	fi	
+}
+
+## Execute accordingly
+if [[ "$1" == "--song" ]]; then
+	get_song
+elif [[ "$1" == "--artist" ]]; then
+	get_artist
+elif [[ "$1" == "--status" ]]; then
+	get_status
+elif [[ "$1" == "--time" ]]; then
+	get_time
+elif [[ "$1" == "--toggle" ]]; then
+	playerctl -i edge play-pause
+elif [[ "$1" == "--next" ]]; then
+	{ playerctl -i edge next; get_cover; }
+elif [[ "$1" == "--prev" ]]; then
+	{ playerctl -i edge previous; get_cover; }
+fi
