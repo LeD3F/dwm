@@ -28,7 +28,8 @@
 - **Easyeffects:** AutoEQ for headphones.
 - **Zenpower:** cpu temperature info.
 - **Spotify:** music plugin in eww works only with this player, but you can configure it for yourself.
-- **xautolock**: for inhibitors
+- **xautolock:** for inhibitors
+- **xkb-switch:** keyboard indicator
 
 ## configuration
 
