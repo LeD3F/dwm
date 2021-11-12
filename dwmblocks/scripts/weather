@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -sf "wttr.in/Nizhniy_Novgorod?format=1" | sed -r 's/^.{3}//' > "$HOME/.local/share/weatherreport" || exit 1 ;
+rain=$(cat ~/.local/share/weatherreport)
+echo $rain
