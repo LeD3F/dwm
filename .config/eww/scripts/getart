@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 tmp_dir="/tmp/dwm/spotify"
 tmp_cover_path=$tmp_dir/cover.png
 
