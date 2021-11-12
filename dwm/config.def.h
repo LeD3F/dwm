@@ -353,16 +353,16 @@ static Key keys[] = {
 
 	/* Custom commands */
 
-	{ MODKEY, 			XK_e, 	       spawn,                  {.v = eww_panel } }, /* Launch eww panel */
-	{ MODKEY|ShiftMask, 		XK_e, 	       spawn,                  {.v = eww_close } }, /* Close every eww instance */
+	{ MODKEY, 						XK_e, 		   spawn,                  {.v = eww_panel } }, /* Launch eww panel */
+	{ MODKEY|ShiftMask, 			XK_e, 		   spawn,                  {.v = eww_close } }, /* Close every eww instance */
 	{ MODKEY,                       XK_d,          spawn,                  {.v = rofi } }, /* rofi launcher */
 	{ MODKEY|ShiftMask,             XK_a,          spawn,                  {.v = rofi_clip } }, /* rofi clipboard */
 	{ MODKEY,                       XK_F1,         spawn,                  {.v = lock } }, /* rofi clipboard */
 	{ MODKEY,                       XK_x,          spawn,                  {.v = inhibitor_on } }, /* activate inhibitor */
 	{ MODKEY|ShiftMask,             XK_x,          spawn,                  {.v = inhibitor_off } }, /* deactivate inhibitor */	
-	{ 0,             		PrintScr,      spawn,                  SHCMD("maim -s | xclip -selection clipboard -t image/png && notify-send \"Screenshot\" \"Copied to Clipboard\" -i screenie")}, /* maim screen copy */
-	{ MODKEY,             		PrintScr,      spawn,                  SHCMD("maim -s ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png && notify-send \"Screenshot\" \"Saved to Pictures\" -i screenie")}, /* maim screen */
-	{ 0, 				XK_ISO_Next_Group, spawn, 	       SHCMD("pkill -RTMIN+10 dwmblocks")}, /* keyboard indicator */
+	{ 0,             		        PrintScr,      spawn,                  SHCMD("maim -s | xclip -selection clipboard -t image/png && notify-send \"Screenshot\" \"Copied to Clipboard\" -i screenie")}, /* maim screen copy */
+	{ MODKEY,             			PrintScr,      spawn,                  SHCMD("maim -s ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png && notify-send \"Screenshot\" \"Saved to Pictures\" -i screenie")}, /* maim screen */
+	{ 0, 							XK_ISO_Next_Group, 		spawn, 		   SHCMD("pkill -RTMIN+10 dwmblocks")}, /* keyboard indicator */
 };
 
 

@@ -6,12 +6,12 @@ Super + B - Hide Bar
 Super + J/K - Focus Left or Right Stack
 Super + S - Swap focus on left or right stack in one keybind.
 
-Super + A/Z - Increase or decrease windows in Master stack.
+Super + A/Z - Increase or decrease number windows in Master stack.
 
 Super + H/L - Change size of master stack.
 Super + Shift + H/L/O - Set the size of windows in all stacks. O for reset size.
 
-Super + Shift + J/K - Move stacks on available tag.
+Super + Shift + J/K - Move stacks in tags.
 
 Super + Tab - Show previous tag
 Super + Shift + C - kill client

@@ -26,7 +26,6 @@ static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
 static const char *fonts[]               = { "JetBrainsMono Nerd Font:size=10:style=bold:antialias=true:autohint=true",
                                              "Font Awesome 5 Free:size=20:style=bold:antialias=true:autohint=true",
                                              "NotoEmoji Nerd Font:size=12:antialias=true:autohint=true" };
-static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=10:style=bold:antialias=true:autohint=true";
 
 static char c000000[]                    = "#bc7ad9"; // placeholder value
 
