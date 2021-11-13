@@ -49,8 +49,8 @@
 | `Super + J/K`                   | Focus Left or Right Stack                |
 | `Super + S`                     | Swap focus on left or right stack        |
 | `Super + H/L`                   | Change size of master stack.             |
-| `Super + Shift + H/L/O`         | Set the size of windows in all stacks.   |
-| `Super + Shift + J/K`           | Move stacks in tags.                     |
+| `Super + Shift + Up/Down/O`     | Set the size of windows in slave stack.  |
+| `Super + Shift + Left/Right`    | Move stacks in tags.                     |
 | `Super + Tab`                   | Show previous tag                        |
 | `Super + Shift + C`             | Kill client                              |
 | `Super + Shift + Q`             | Quit dwm                                 |
