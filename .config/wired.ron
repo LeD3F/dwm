@@ -116,7 +116,7 @@
             offset: Vec2(x: 0.0, y: 0.0),
             // https://github.com/Toqozz/wired-notify/wiki/ScrollingTextBlock
             params: TextBlock((
-                text: "%s",
+                text: "%b",
                 font: "JetBrains Mono 10",
                 ellipsize: Middle,
                 color: Color(hex: "#efefef"),
