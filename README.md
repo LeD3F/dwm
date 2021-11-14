@@ -31,7 +31,7 @@
 - **xautolock:** for inhibitors
 - **xkb-switch:** keyboard indicator
 
-## configuration
+## config
 
 - **About EWW:**: This config for 1920x1080 resolution, so you should change it by yourself for preffered resolution.
 - **Important:** Go to my .dots repo and clone bin folder and place it in your PATH, without it scripts won't work and change.  
@@ -39,6 +39,7 @@
 - **Updates in dwmblocks:** update scripts works only for arch and arch based distros, change command for updates that applies to your distribution.
 - **Weather in dwmblocks:** change wttr.in location to yours.
 - **Autostart script:** place .dwm folder in your HOME directory and make script executable.
+- **GTK & Qt Themes:** One Dark color theme made with Oomox
 
 ## keybinds
 
