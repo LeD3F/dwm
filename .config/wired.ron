@@ -115,17 +115,14 @@
             hook: Hook(parent_anchor: BL, self_anchor: TL),
             offset: Vec2(x: 0.0, y: 0.0),
             // https://github.com/Toqozz/wired-notify/wiki/ScrollingTextBlock
-            params: ScrollingTextBlock((
-                text: "%b",
+            params: TextBlock((
+                text: "%s",
                 font: "JetBrains Mono 10",
+                ellipsize: Middle,
                 color: Color(hex: "#efefef"),
                 color_hovered: Color(hex: "#abb2bf"),
                 padding: Padding(left: 10.0, right: 10.0, top: 2.0, bottom: 10.0),
-                width: (min: 150, max: 200),
-                scroll_speed: 0.1,
-                lhs_dist: 35.0,
-                rhs_dist: 35.0,
-                scroll_t: 1.0,
+                dimensions: (width: (min: 100, max: 200), height: (min: 0, max: 0)),
             )),
         ),
     ],
