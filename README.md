@@ -39,7 +39,7 @@
 - **Updates in dwmblocks:** update scripts works only for arch and arch based distros, change command for updates that applies to your distribution.
 - **Weather in dwmblocks:** change wttr.in location to yours.
 - **Autostart script:** place .dwm folder in your HOME directory and make script executable.
-- **GTK & Qt Themes:** One Dark color theme made with Oomox
+- **GTK & Qt Themes:** One Dark color theme made with Oomox. Qt style is Lightly.
 
 ## keybinds
 
