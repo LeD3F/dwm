@@ -40,6 +40,7 @@
 - **Weather in dwmblocks:** change wttr.in location to yours.
 - **Autostart script:** place .dwm folder in your HOME directory and make script executable.
 - **GTK & Qt Themes:** One Dark color theme made with Oomox. Qt style is Lightly.
+- **How to change color schemes:** Go to dwm or st folder, change the value on line #include "themes/..." to prefferable theme or make your own.
 
 ## keybinds
 
