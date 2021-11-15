@@ -290,8 +290,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_F1,         spawn,                  {.v = lock } }, /* rofi clipboard */
 	{ MODKEY,                       XK_x,          spawn,                  {.v = inhibitor_on } }, /* activate inhibitor */
 	{ MODKEY|ShiftMask,             XK_x,          spawn,                  {.v = inhibitor_off } }, /* deactivate inhibitor */	
-	{ 0,             		        PrintScr,      spawn,                  SHCMD("maim -s | xclip -selection clipboard -t image/png && notify-send \"Screenshot\" \"Copied to Clipboard\" -i screenie")}, /* maim screen copy */
-	{ MODKEY,             			PrintScr,      spawn,                  SHCMD("maim -s ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png && notify-send \"Screenshot\" \"Saved to Pictures\" -i screenie")}, /* maim screen */
+	{ 0,             		        PrintScr,      spawn,                  SHCMD("maim -s -u| xclip -selection clipboard -t image/png && notify-send \"Screenshot\" \"Copied to Clipboard\" -i screenie")}, /* maim screen copy */
+	{ MODKEY,             			PrintScr,      spawn,                  SHCMD("maim -s -u ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png && notify-send \"Screenshot\" \"Saved to Pictures\" -i screenie")}, /* maim screen */
 	{ 0, 							XK_ISO_Next_Group, 		spawn, 		   SHCMD("pkill -RTMIN+10 dwmblocks")}, /* keyboard indicator */
 };
 
