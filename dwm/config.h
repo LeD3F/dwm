@@ -23,9 +23,7 @@ static const int showsystray             = 1;   /* 0 means no systray */
 static int tagindicatortype              = INDICATOR_BOTTOM_BAR_SLIM;
 static int tiledindicatortype            = INDICATOR_NONE;
 static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
-static const char *fonts[]               = { "JetBrainsMono Nerd Font:size=10:style=bold:antialias=true:autohint=true",
-                                             "Font Awesome 5 Free:size=20:style=bold:antialias=true:autohint=true",
-                                             "NotoEmoji Nerd Font:size=12:antialias=true:autohint=true" };
+static const char *fonts[]               = { "JetBrainsMono Nerd Font:size=10:style=bold:antialias=true:autohint=true"};
 
 // theme
 #include "themes/tokyo.h"
@@ -42,10 +40,6 @@ static char *colors[][ColCount] = {
 	[SchemeHidSel]       = { hidselfgcolor,    hidselbgcolor,    c000000,              c000000 },
 	[SchemeUrg]          = { urgfgcolor,       urgbgcolor,       urgbordercolor,       urgfloatcolor },
 };
-
-
-
-
 
 /* Tags
  * In a traditional dwm the number of tags in use can be changed simply by changing the number
@@ -119,7 +113,7 @@ static const Rule rules[] = {
 	RULE(.class    = "Galculator", .isfloating = 1)
 	RULE(.class    = "Yad", .isfloating = 1)
 	RULE(.class    = "Steam", .tags = 1 << 6)
-	RULE(.class    = "Lutris", .tags = 1 << 6)
+	RULE(.class    = "Lutris", .tags = 1 << 6, .isfloating = 1)
 	RULE(.class    = "Microsoft-edge", .tags = 1 << 1)
 	RULE(.class    = "TelegramDesktop", .tags = 1 << 4)
 };
