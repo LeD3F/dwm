@@ -1,6 +1,6 @@
 ## dwm
 
-<img src='screens/dwm_tokyo.png'>
+<img src='screens/dwm_tokyonight.png'>
 
 ## eww
 
