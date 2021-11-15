@@ -1,10 +1,10 @@
 ## dwm
 
-<img src='screens/dwm.png'>
+<img src='screens/dwm_tokyo.png'>
 
 ## eww
 
-<img src='screens/eww.png'>
+<img src='screens/eww_tokyo.png'>
 
 ## some info
 
