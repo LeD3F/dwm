@@ -16,7 +16,9 @@
 
 - **dwmblocks** - https://github.com/torrinfail/dwmblocks
 
-- **Two Color Schemes:** Tokyo Night and One Dark. 
+- **rofi theme** - https://github.com/adi1090x/rofi
+
+- **Two Color Schemes** - Tokyo Night and One Dark. 
 
 ## dependencies
 
