@@ -11,7 +11,7 @@ static const Block blocks[] = {
 
 	{"\x06  ",  "mem", 		5, 					0},
 
-	{"\x07  ",  "xkb-switch", 	0, 					10},
+	{"\x07  ",  "xkb-switch", 	1, 					10},
 
 	{"\x08  ",  "pamixer --get-volume-human", 1, 	0},
 
