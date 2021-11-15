@@ -184,23 +184,6 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *termcmd[] = { "st", NULL };
-static const char *rofi[] = { 
-	"rofi", 
-	"-no-lazy-grab", 
-	"-show", "drun", 
-	"-modi", "drun", 
-	NULL
-};
-static const char *rofi_clip[] = { 
-	"rofi", 
-	"-modi", 
-	"clipboard:greenclip print", 
-	"-show", 
-	"clipboard", 
-	"-run-command", 
-	"'{cmd}'", "drun", 
-	NULL 
-};
 static const char *eww_close[] = { "eww", "close-all", NULL };
 static const char *lock[] = {
 	"betterlockscreen", 
@@ -302,8 +285,8 @@ static Key keys[] = {
 
 	{ MODKEY, 						XK_e, 		   spawn,                  {.v = eww_panel } }, /* Launch eww panel */
 	{ MODKEY|ShiftMask, 			XK_e, 		   spawn,                  {.v = eww_close } }, /* Close every eww instance */
-	{ MODKEY,                       XK_d,          spawn,                  {.v = rofi } }, /* rofi launcher */
-	{ MODKEY|ShiftMask,             XK_a,          spawn,                  {.v = rofi_clip } }, /* rofi clipboard */
+	{ MODKEY,                       XK_d,          spawn,                  SHCMD("~/.config/rofi/launchers/launcher/launcher.sh")}, /* rofi launcher */
+	{ MODKEY|ShiftMask,             XK_a,          spawn,                  SHCMD("~/.config/rofi/launchers/greenclip/launcher.sh")}, /* rofi clipboard */
 	{ MODKEY,                       XK_F1,         spawn,                  {.v = lock } }, /* rofi clipboard */
 	{ MODKEY,                       XK_x,          spawn,                  {.v = inhibitor_on } }, /* activate inhibitor */
 	{ MODKEY|ShiftMask,             XK_x,          spawn,                  {.v = inhibitor_off } }, /* deactivate inhibitor */	
