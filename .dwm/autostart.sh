@@ -14,9 +14,7 @@ pamac-tray &
 ~/bin/lock.sh &
 eww daemon &
 
-#Notifications and statusbar
-killall dunst
-dunst -verbosity mesg &
+#statusbar
 killall dwmblocks
 dwmblocks &
 
