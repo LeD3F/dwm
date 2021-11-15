@@ -16,6 +16,8 @@
 
 - **dwmblocks** - https://github.com/torrinfail/dwmblocks
 
+- **Two Color Schemes:** Tokyo Night and One Dark. 
+
 ## dependencies
 
 - **Fonts:** JetBrains Mono, JetBrainsMono Nerd Fonts, Iosevka, Iosevka Nerd Fonts, SFPro and Feather.
