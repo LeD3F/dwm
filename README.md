@@ -18,7 +18,7 @@
 
 - **rofi theme** - https://github.com/adi1090x/rofi
 
-- **Two Color Schemes** - Tokyo Night and One Dark. 
+- **Available Color Schemes** - Tokyo Night and One Dark. 
 
 ## dependencies
 
