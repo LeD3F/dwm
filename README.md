@@ -10,6 +10,10 @@
 
 <img src='screens/eww_tokyo.png'>
 
+|Gruvbox|One Dark|
+|-|-|
+|![img](screens/eww_gruvbox.png)|![img](screens/eww.png)|
+
 ## some info
 
 - **dwm flexipatch** - https://github.com/bakkeby/dwm-flexipatch
