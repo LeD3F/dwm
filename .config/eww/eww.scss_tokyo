@@ -231,7 +231,7 @@
 
 /** Links ***************************************/
 .iconweb {
-	color: #c0caf5;
+	color: #ffffff;
 	font-family:  Iosevka Nerd Font;
 	font-size : 70px;
 	font-weight : normal;
