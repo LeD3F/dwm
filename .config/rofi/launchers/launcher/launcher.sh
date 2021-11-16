@@ -26,6 +26,14 @@ COLORS=('#f7768e' '#e0af68' '#7dcfff' '#a9b1d6' '#ebcb8d' '#bb9af7' '#c0caf5' \
 #COLORS=('#e06c75' '#c9866f' '#39D7E5' '#6bb2c0' '#ebcb8d' '#bc7ad9' '#71abeb' \
 #		'#9ec07c' '#4d78cc' '#98c379' '#8b3f45')
 
+# Gruvbox
+#ALPHA="#00000000"
+#BG="#1d2021"
+#FG="#f9f5d7"
+#SELECT="#282828"
+# accent colors
+#COLORS=('#fb4934' '#fabd2f' '#458588' '#427b58' '#d79921' '#b16286' '#83a598' \
+#		'#9ec07c' '#076678' '#689d6a' '#9d0006')
 
 ACCENT="${COLORS[$(( $RANDOM % 11 ))]}ff"
 
@@ -46,4 +54,4 @@ EOF
 #themes=($(ls -p --hide="launcher.sh" --hide="colors.rasi" $dir))
 #theme="${themes[$(( $RANDOM % 12 ))]}"
 
-rofi -no-lazy-grab -show drun -modi drun -theme $dir/"$theme"
+xkb-switch -s us && rofi -no-lazy-grab -show drun -modi drun -theme $dir/"$theme"
