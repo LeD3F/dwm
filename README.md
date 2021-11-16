@@ -56,8 +56,9 @@
 
 ## keybinds
 
-|              Keybind            |                 Function                 |
-| ------------------------------- | ---------------------------------------- |
+|Keybind|Function|
+|:-|:-|
+
 | `Super + Enter`                 | Launch terminal                          |
 | `Super + B`                     | Hide bar                                 |
 | `Super + J/K`                   | Focus Left or Right Stack                |
