@@ -2,6 +2,10 @@
 
 <img src='screens/dwm_tokyonight.png'>
 
+|Gruvbox|One Dark|
+|-|-|-|
+|![img](screens/dwm_gruvbox.png)|![img](screens/dwm.png)|
+
 ## eww
 
 <img src='screens/eww_tokyo.png'>
