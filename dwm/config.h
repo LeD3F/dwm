@@ -249,7 +249,6 @@ static Key keys[] = {
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_0,          defaultgaps,            {0} },
 	{ MODKEY,                       XK_Tab,        view,                   {0} },
 	{ MODKEY|ShiftMask,             XK_c,          killclient,             {0} },
-	{ MODKEY|ShiftMask,             XK_q,          quit,                   {0} },
 	{ MODKEY|ControlMask|ShiftMask, XK_q,          quit,                   {1} },
 	{ MODKEY,                       XK_t,          setlayout,              {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,          setlayout,              {.v = &layouts[1]} },
@@ -281,6 +280,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask, 			XK_e, 		   spawn,                  {.v = eww_close } }, /* Close every eww instance */
 	{ MODKEY,                       XK_d,          spawn,                  SHCMD("~/.config/rofi/launchers/launcher/launcher.sh")}, /* rofi launcher */
 	{ MODKEY|ShiftMask,             XK_a,          spawn,                  SHCMD("~/.config/rofi/launchers/greenclip/launcher.sh")}, /* rofi clipboard */
+	{ MODKEY|ShiftMask,             XK_q,          spawn,                  SHCMD("~/.config/rofi/powermenu/powermenu.sh")}, /* rofi powermenu */
 	{ MODKEY,                       XK_F1,         spawn,                  {.v = lock } }, /* rofi clipboard */
 	{ MODKEY,                       XK_x,          spawn,                  {.v = inhibitor_on } }, /* activate inhibitor */
 	{ MODKEY|ShiftMask,             XK_x,          spawn,                  {.v = inhibitor_off } }, /* deactivate inhibitor */	
