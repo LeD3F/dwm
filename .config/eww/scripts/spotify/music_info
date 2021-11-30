@@ -1,0 +1,28 @@
+#!/bin/sh
+
+## Get song
+get_song() {
+	song=`playerctl -i edge metadata title`
+	if [[ -z "$song" ]]; then
+		echo "Offline"
+	else
+		echo "$song"
+	fi	
+}
+
+## Get artist
+get_artist() {
+	artist=`playerctl -i edge metadata artist`
+	if [[ -z "$artist" ]]; then
+		echo "Offline"
+	else
+		echo "$artist"
+	fi	
+}
+
+## Execute accordingly
+if [[ "$1" == "--song" ]]; then
+	get_song
+elif [[ "$1" == "--artist" ]]; then
+	get_artist
+fi

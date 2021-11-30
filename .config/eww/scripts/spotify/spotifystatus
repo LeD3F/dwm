@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# A dwm_bar function that shows the current artist, track, duration, and status from Spotify using playerctl
+# Joe Standring <git@joestandring.com>
+# GNU GPLv3
+
+# Dependencies: spotify/spotifyd, playerctl
+
+# NOTE: The official spotify client does not provide the track position or shuffle status through playerctl. This does work through spotifyd however.
+
+    if ps -C spotify > /dev/null; then
+        PLAYER="spotify"
+    fi
+
+    if [ "$PLAYER" = "spotify" ]; then
+        STATUS=$(playerctl -p spotify status)
+
+            if [ "$STATUS" = "Playing" ]; then
+                STATUS=""
+            else
+                STATUS="喇"
+            fi
+
+        if [ "$PLAYER" = "spotify" ]; then
+            printf "$STATUS" 
+        fi
+    fi
